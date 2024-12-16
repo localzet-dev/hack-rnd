@@ -32,13 +32,19 @@
                   25.10.2024
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">15:00</span> Открытие ИТ-форума
+                    class="bg-clip-text text-transparent bg-green-400">10:00 - 16:00</span> HackConf (Медиапарк Южный регион)
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">16:00</span> Регистрация участников
+                    class="bg-clip-text text-transparent bg-green-400">16:00</span> Регистрация участников (Манеж ДГТУ)
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">18:00</span> Торжественное открытие
+                    class="bg-clip-text text-transparent bg-green-400">17:00</span> Работа интерактивных выставок IT-компаний
+                </div>
+                <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
+                    class="bg-clip-text text-transparent bg-green-400">18:00</span> Торжественное открытие Хакатон Осень 2024
+                </div>
+                <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
+                    class="bg-clip-text text-transparent bg-green-400">19:30</span> Выбор кейса
                 </div>
               </div>
             </div>
@@ -49,11 +55,7 @@
                     class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
                   26.10.2024
                 </div>
-                <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">09:00 - 10:00</span> Первый чек-поинт
-                </div>
-                <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">19:00 - 20:00</span> Второй чек-поинт
+                <div class="py-2 text-neutral-400 border-b border-neutral-800"> Рабочий процесс
                 </div>
               </div>
             </div>
