@@ -11,72 +11,72 @@
         <div class="overflow-hidden">
           <div
               class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-neutral-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-neutral-950">
-            <div class="swiper-wrapper !ease-linear select-none items-center">
+            <div class="swiper-wrapper !ease-linear select-none items-center min-w-full">
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedCenterInvest" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedCenterInvest" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedAxenix" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedAxenix" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedBeshtau" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedBeshtau" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedDatumSoft" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedDatumSoft" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedIT" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedIT" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedGarage" alt="Partner" style="filter: invert();"/>
+                <img class="image min-w-full" :src="CompressedGarage" alt="Partner" style="filter: invert();"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedEltex" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedEltex" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedForabank" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedForabank" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedIktin" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedIktin" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedKaspersky" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedKaspersky" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedSber" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedSber" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedMediapark" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedMediapark" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedOdgetto" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedOdgetto" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedSpecialUniversityAutomation" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedSpecialUniversityAutomation" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedTTK" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedTTK" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedWebpractik" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedWebpractik" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedPride" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedPride" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedRcsi" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedRcsi" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedRsc" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedRsc" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedGreenwich" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedGreenwich" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedY" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedY" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image" :src="CompressedDD" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedDD" alt="Partner"/>
               </div>
             </div>
           </div>
@@ -100,7 +100,6 @@
 import {onMounted} from 'vue'
 import Particles from './Particles.vue'
 
-// Import Swiper
 import Swiper, {Autoplay} from 'swiper'
 import 'swiper/css'
 

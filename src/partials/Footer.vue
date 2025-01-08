@@ -31,7 +31,7 @@
                 </a>
               </div>
               <a class="text-sm text-neutral-300" href="https://www.localzet.com" aria-label="Localzet">
-                Copyright &copy; 2024 Localzet Group <br/>
+                Copyright &copy; {{ currentYear }} Localzet Group <br/>
                 <span class="text-neutral-500">Все права защищены</span>
               </a>
             </div>
@@ -43,19 +43,19 @@
           <ul class="text-sm space-y-2">
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://vk.com/video/@fantastic_hackathon/all">Видеозаписи</a>
+                 href="https://go.hack-rnd.ru/video">Видеозаписи</a>
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://vk.com/albums-106352936">Фотоальбомы</a>
+                 href="https://go.hack-rnd.ru/albums">Фотоальбомы</a>
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://go.localzet.com/hack-archive">Архив кейсов</a>
+                 href="https://go.hack-rnd.ru/archive">Архив кейсов</a>
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://go.localzet.com/hack-doc">Положение</a>
+                 href="https://go.hack-rnd.ru/regulations">Положение</a>
             </li>
           </ul>
         </div>
@@ -65,15 +65,15 @@
           <ul class="text-sm space-y-2">
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://vk.com/fantastic_hackathon">ВКонтакте</a>
+                 target="_blank" href="https://go.hack-rnd.ru/vk">ВКонтакте</a>
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://t.me/fantastic_hackathon">Телеграм</a>
+                 target="_blank" href="https://go.hack-rnd.ru/tg">Телеграм</a>
             </li>
             <li>
               <a class="text-neutral-400 hover:text-neutral-200 transition duration-150 ease-in-out"
-                 href="https://t.me/addlist/cFS0PrEQxiVjOGEx">Общие чаты</a>
+                 target="_blank" href="https://go.hack-rnd.ru/tgchats">Общие чаты</a>
             </li>
           </ul>
         </div>
@@ -102,6 +102,11 @@ export default {
       CompressedRostovYouth,
       CompressedDSTU
     };
+  },
+  computed: {
+    currentYear() {
+      return new Date().getFullYear();
+    }
   }
 }
 </script>

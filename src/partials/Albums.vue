@@ -143,7 +143,6 @@ import CompressedImage18 from '../images/carousel/X3DmiBbSRLQ.jpg?h=400&format=w
 import CompressedImage19 from '../images/carousel/YxulfgeXA4I.jpg?h=400&format=webp';
 import CompressedImage20 from '../images/carousel/zSa7g-edmIw.jpg?h=400&format=webp';
 
-// Import Swiper
 import Swiper, {Autoplay} from 'swiper'
 import 'swiper/css'
 import 'swiper/css/parallax'

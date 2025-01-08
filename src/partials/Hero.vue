@@ -2,10 +2,8 @@
   <section>
     <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
 
-      <!-- Particles animation -->
       <Particles class="absolute inset-0 -z-10"/>
 
-      <!-- Illustration -->
       <div class="absolute inset-0 -z-10 -mx-28 rounded-b-[3rem] pointer-events-none overflow-hidden"
            aria-hidden="true">
         <div class="absolute left-1/2 -translate-x-1/2 bottom-0 -z-10">
@@ -55,12 +53,12 @@
         <!-- Hero content -->
         <div class="max-w-3xl mx-auto text-center">
           <div class="mb-3" data-aos="fade-down">
-            <pre class="text-lg relative inline-flex items-center">25 - 27 октября •  Манеж ДГТУ</pre>
+            <!-- <pre class="text-lg relative inline-flex items-center">25 - 27 октября •  Манеж ДГТУ</pre> -->
           </div>
           <h1 class="h1 bg-clip-text text-transparent bg-neutral-200 pb-4"
               data-aos="fade-down">Южный ИТ-форум</h1>
           <p class="text-lg text-neutral-200 mb-8" data-aos="fade-down" data-aos-delay="200">Форум программных
-            разработчиков Ростова-на-Дону «Хакатон Осень 2024»</p>
+            разработчиков Ростова-на-Дону «Хакатон Весна 2025»</p>
           <div
               class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
               data-aos="fade-down" data-aos-delay="400">
