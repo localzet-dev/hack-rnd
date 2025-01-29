@@ -39,7 +39,7 @@
           <!-- Desktop sign in links -->
           <ul class="flex grow justify-end flex-wrap items-center">
             <li>
-              <a class="btn text-neutral-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.neutral.950),_theme(colors.neutral.950))_padding-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none">
+              <a class="hidden lg:block btn text-neutral-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.neutral.950),_theme(colors.neutral.950))_padding-box] relative before:absolute before:inset-0 before:bg-neutral-800/30 before:rounded-full before:pointer-events-none">
                 <span class="relative inline-flex items-center">
                   Регистрация с 4 марта
                 </span>

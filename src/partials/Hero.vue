@@ -65,7 +65,8 @@
               data-aos="fade-down" data-aos-delay="400">
             <div>
               <a class="btn btn-disabled text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group">
-                <span class="text-lg relative inline-flex items-center">Регистрация будет открыта с 4 марта</span>
+                <span class="hidden lg:block text-lg relative inline-flex items-center">Регистрация будет открыта с 4 марта</span>
+                <span class="lg:hidden text-lg relative inline-flex items-center">Регистрация с 4 марта</span>
               </a>
             </div>
 <!--            <div>-->
