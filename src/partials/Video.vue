@@ -34,32 +34,16 @@ export default {
     HighlighterItem,
   },
   mounted() {
-    this.observeVisibility();
-  },
-  methods: {
-    observeVisibility() {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            this.loadIframe();
-            observer.disconnect();
-          }
-        });
-      });
+    // this.observeVisibility();
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://vk.com/video_ext.php?oid=-106352936&id=456239203&hash=d7d5e0b66c3b404b';
+    iframe.async = true;
+    iframe.className = 'w-full h-96';
+    iframe.frameBorder = '0';
+    iframe.allowFullscreen = true;
+    iframe.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    document.getElementById('iframe-container').appendChild(iframe);
 
-      observer.observe(this.$el);
-    },
-    loadIframe() {
-      requestIdleCallback(() => {
-        const iframe = document.createElement('iframe');
-        iframe.src = 'https://vk.com/video_ext.php?oid=-106352936&id=456239203&hash=d7d5e0b66c3b404b';
-        iframe.className = 'w-full h-96';
-        iframe.frameBorder = '0';
-        iframe.allowFullscreen = true;
-        iframe.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
-        document.getElementById('iframe-container').appendChild(iframe);
-      });
-    }
-  }
+  },
 }
 </script>
