@@ -1,42 +1,24 @@
-name: Deploy to GitHub Pages
-on: 
+name: Deploy
+on:
   workflow_dispatch:
-  push: 
-    branches: 
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
       - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: general
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
 
-    - name: Setup Node 🔮
-      uses: actions/setup-node@v4
-      with: 
-        node-version: "20"
-        
-    - name: Install dependencies 📦
-      run: npm install
+      - name: Set repository name variable
+        run: echo "REPO_NAME=$(basename $GITHUB_REPOSITORY)" >> $GITHUB_ENV
 
-    - name: Build project 🔧
-      run: npm run build
-
-    - name: Upload artifact ☁️
-      uses: actions/upload-pages-artifact@v3
-      with: 
-        path: ./dist
-  deploy:
-    needs: build
-    permissions: 
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Build Docker image
+        run: docker build . -t localzet-${{ env.REPO_NAME }}:latest
