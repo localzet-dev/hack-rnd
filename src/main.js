@@ -4,9 +4,7 @@ import App from './App.vue'
 
 import 'aos/dist/aos.css';
 import './css/style.css'
-import VueLazyload from "vue-lazyload";
 
 const app = createApp(App)
 app.use(router)
-app.use(VueLazyload, {lazyComponent: true})
 app.mount('#app')
