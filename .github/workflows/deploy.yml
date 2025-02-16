@@ -20,4 +20,4 @@ jobs:
         run: echo "REPO_NAME=$(basename $GITHUB_REPOSITORY | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Build Docker image
-        run: docker build . -t localzet-${{ env.REPO_NAME }}:latest
+        run: DOCKER_BUILDKIT=0 docker build . -t localzet-${{ env.REPO_NAME }}:latest
