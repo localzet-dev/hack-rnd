@@ -13,7 +13,7 @@
                   <div class="absolute inset-0 translate-z-0 bg-green-500 rounded-full blur-[120px]"></div>
                 </div>
 
-                <div id="iframe-container" class="w-full h-96"></div>
+                <lazy-iframe v-if="isVisible" id="iframe-container" class="w-full h-96" :src="videoSrc"></lazy-iframe>
               </div>
             </HighlighterItem>
           </Highlighter>
@@ -26,26 +26,37 @@
 <script>
 import Highlighter from './Highlighter.vue'
 import HighlighterItem from './HighlighterItem.vue'
+import VueLazyload from 'vue-lazyload'
 
 export default {
   name: 'Video',
   components: {
     Highlighter,
     HighlighterItem,
+    lazyIframe: VueLazyload.component('lazy-iframe'),
+  },
+  data() {
+    return {
+      videoSrc: 'https://vk.com/video_ext.php?oid=-106352936&id=456239203&hash=d7d5e0b66c3b404b',
+      isVisible: false,
+    };
   },
   mounted() {
-    this.loadIframe();
+    this.observeVisibility();
   },
   methods: {
-    loadIframe() {
-      const iframe = document.createElement('iframe');
-      iframe.src = 'https://vk.com/video_ext.php?oid=-106352936&id=456239203&hash=d7d5e0b66c3b404b';
-      iframe.className = 'w-full h-96';
-      iframe.frameBorder = '0';
-      iframe.allowFullscreen = true;
-      iframe.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
-      document.getElementById('iframe-container').appendChild(iframe);
-    }
-  }
+    observeVisibility() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            this.isVisible = true;
+            observer.disconnect();
+          }
+        });
+      });
+
+      observer.observe(this.$el);
+    },
+  },
 }
 </script>
