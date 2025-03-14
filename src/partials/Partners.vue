@@ -18,15 +18,15 @@
               <div class="swiper-slide w-fit">
                 <img class="image min-w-full" :src="CompressedAxenix" alt="Partner"/>
               </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedBeshtau" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedDatumSoft" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedIT" alt="Partner"/>
-              </div>
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedBeshtau" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedDatumSoft" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedIT" alt="Partner"/>-->
+              <!--              </div>-->
               <div class="swiper-slide w-fit">
                 <img class="image min-w-full" :src="CompressedGarage" alt="Partner" style="filter: invert();"/>
               </div>
@@ -36,9 +36,9 @@
               <div class="swiper-slide w-fit">
                 <img class="image min-w-full" :src="CompressedForabank" alt="Partner"/>
               </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedIktin" alt="Partner"/>
-              </div>
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedIktin" alt="Partner"/>-->
+              <!--              </div>-->
               <div class="swiper-slide w-fit">
                 <img class="image min-w-full" :src="CompressedKaspersky" alt="Partner"/>
               </div>
@@ -48,35 +48,41 @@
               <div class="swiper-slide w-fit">
                 <img class="image min-w-full" :src="CompressedMediapark" alt="Partner"/>
               </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedOdgetto" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedSpecialUniversityAutomation" alt="Partner"/>
-              </div>
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedOdgetto" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedSpecialUniversityAutomation" alt="Partner"/>-->
+              <!--              </div>-->
               <div class="swiper-slide w-fit">
                 <img class="image min-w-full" :src="CompressedTTK" alt="Partner"/>
               </div>
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedWebpractik" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedPride" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedRcsi" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedRsc" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedGreenwich" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedY" alt="Partner"/>-->
+              <!--              </div>-->
+              <!--              <div class="swiper-slide w-fit">-->
+              <!--                <img class="image min-w-full" :src="CompressedDD" alt="Partner"/>-->
+              <!--              </div>-->
               <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedWebpractik" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedRNIIRS" alt="Partner"/>
               </div>
               <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedPride" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedRcsi" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedRsc" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedGreenwich" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedY" alt="Partner"/>
-              </div>
-              <div class="swiper-slide w-fit">
-                <img class="image min-w-full" :src="CompressedDD" alt="Partner"/>
+                <img class="image min-w-full" :src="CompressedMardigal" alt="Partner"/>
               </div>
             </div>
           </div>
@@ -116,7 +122,8 @@ import CompressedKaspersky from '../images/partners/kaspersky.png?h=78&format=we
 import CompressedSber from '../images/partners/sber.png?h=78&format=webp';
 import CompressedMediapark from '../images/partners/mediapark.png?h=78&format=webp';
 import CompressedOdgetto from '../images/partners/odgetto.png?h=78&format=webp';
-import CompressedSpecialUniversityAutomation from '../images/partners/special-university-automation.png?h=78&format=webp';
+import CompressedSpecialUniversityAutomation
+  from '../images/partners/special-university-automation.png?h=78&format=webp';
 import CompressedTTK from '../images/partners/ttk.png?h=78&format=webp';
 import CompressedWebpractik from '../images/partners/webpractik.png?h=78&format=webp';
 import CompressedPride from '../images/partners/pride.png?h=78&format=webp';
@@ -125,6 +132,8 @@ import CompressedRsc from '../images/partners/rsc.png?h=78&format=webp';
 import CompressedGreenwich from '../images/partners/greenwich.png?h=78&format=webp';
 import CompressedY from '../images/partners/y.png?h=78&format=webp';
 import CompressedDD from '../images/partners/dd.png?h=78&format=webp';
+import CompressedRNIIRS from '../images/partners/rniirs.png?h=78&format=webp';
+import CompressedMardigal from '../images/partners/mardigal.png?h=78&format=webp';
 
 Swiper.use([Autoplay])
 
@@ -174,6 +183,8 @@ export default {
       CompressedGreenwich,
       CompressedY,
       CompressedDD,
+      CompressedRNIIRS,
+      CompressedMardigal
     };
   },
 }

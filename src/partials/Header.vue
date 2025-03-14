@@ -11,9 +11,7 @@
                  alt="Хакатон">
           </a>
           <a class="block my-3 ml-1 sm:mx-2" href="https://minobr.donland.ru/" aria-label="Министерство образования РО">
-            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none hidden md:block"
-                 :src="CompressedMinistryEducationFull" width="177" height="58" alt="Министерство образования РО">
-            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none md:hidden" :src="CompressedMinistryEducation"
+            <img class="max-h-10 md:max-h-14 max-w-10 md:max-w-none" :src="CompressedMinistryEducation"
                  width="53" height="58" alt="Министерство образования РО">
           </a>
           <a class="block my-3 mx-1 sm:mx-2" href="https://rostov-gorod.ru/" aria-label="Ростовская область">
@@ -74,7 +72,6 @@
 </template>
 
 <script>
-import CompressedMinistryEducationFull from '../images/organizators/ministry-education-full.svg?w=177&h=58&format=webp';
 import CompressedMinistryEducation from '../images/organizators/ministry-education.svg?w=53&h=58&format=webp';
 import CompressedRostovRegion from '../images/organizators/rostov-region.svg?w=58&h=58&format=webp';
 import CompressedRostovYouthFull from '../images/organizators/rostov-youth-full.svg?w=200&h=64&format=webp';
@@ -85,7 +82,6 @@ export default {
   name: 'Header',
   data() {
     return {
-      CompressedMinistryEducationFull,
       CompressedMinistryEducation,
       CompressedRostovRegion,
       CompressedRostovYouthFull,
