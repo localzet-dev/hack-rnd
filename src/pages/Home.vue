@@ -7,7 +7,7 @@
       <Hero/>
       <Partners/>
       <Features/>
-<!--      <Schedule/>-->
+      <Schedule/>
       <Volunteers/>
       <Video/>
       <Albums/>

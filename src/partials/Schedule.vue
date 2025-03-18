@@ -29,7 +29,7 @@
               <div class="grow pb-2">
                 <div
                     class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
-                  25.10.2024
+                  04.04.2025
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">10:00 - 16:00</span> HackConf (Медиапарк Южный регион)
@@ -53,7 +53,7 @@
               <div class="grow pb-2">
                 <div
                     class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
-                  26.10.2024
+                  05.04.2025
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"> Рабочий процесс
                 </div>
@@ -64,7 +64,7 @@
               <div class="grow pb-2">
                 <div
                     class="text-lg-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-200 pb-0.5">
-                  27.10.2024
+                  06.04.2025
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">16:00</span> Питч-сессия технических кейсов
