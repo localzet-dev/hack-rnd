@@ -53,12 +53,12 @@
         <!-- Hero content -->
         <div class="max-w-3xl mx-auto text-center">
           <div class="mb-3" data-aos="fade-down">
-            <pre class="text-lg relative inline-flex items-center">4 - 6 апреля •  Манеж ДГТУ</pre>
+            <pre class="text-lg relative inline-flex items-center">24 - 26 октября •  Манеж ДГТУ</pre>
           </div>
           <h1 class="h1 bg-clip-text text-transparent bg-neutral-200 pb-4"
               data-aos="fade-down">Южный ИТ-форум</h1>
           <p class="text-lg text-neutral-200 mb-8" data-aos="fade-down" data-aos-delay="200">Форум программных
-            разработчиков Ростова-на-Дону «Хакатон Весна 2025»</p>
+            разработчиков Ростова-на-Дону «Хакатон Осень 2025»</p>
 
           <div
               class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"

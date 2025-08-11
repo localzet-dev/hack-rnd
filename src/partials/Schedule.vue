@@ -41,7 +41,7 @@
                     class="bg-clip-text text-transparent bg-green-400">17:00</span> Работа интерактивных выставок IT-компаний
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
-                    class="bg-clip-text text-transparent bg-green-400">18:00</span> Торжественное открытие Хакатон Весна 2025
+                    class="bg-clip-text text-transparent bg-green-400">18:00</span> Торжественное открытие Хакатон Осень 2025
                 </div>
                 <div class="py-2 text-neutral-400 border-b border-neutral-800"><span
                     class="bg-clip-text text-transparent bg-green-400">19:30</span> Выбор кейса
