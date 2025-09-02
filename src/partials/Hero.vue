@@ -63,18 +63,18 @@
           <div
               class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
               data-aos="fade-down" data-aos-delay="400">
-            <!--            <div>-->
-            <!--              <a class="btn btn-disabled text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group">-->
-            <!--                <span class="hidden lg:block text-lg relative inline-flex items-center">Регистрация будет открыта с 4 марта</span>-->
-            <!--                <span class="lg:hidden text-lg relative inline-flex items-center">Регистрация с 4 марта</span>-->
-            <!--              </a>-->
-            <!--            </div>-->
             <div>
-              <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group"
-                 href="https://lk.hack-rnd.ru/register">
-                Стать участником
+              <a class="btn btn-disabled text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group">
+                <span class="hidden lg:block text-lg relative inline-flex items-center">Регистрация будет открыта с 24 сентября</span>
+                <span class="lg:hidden text-lg relative inline-flex items-center">Регистрация с 24 сентября</span>
               </a>
             </div>
+            <!--            <div>-->
+            <!--              <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group"-->
+            <!--                 href="https://lk.hack-rnd.ru/register">-->
+            <!--                Стать участником-->
+            <!--              </a>-->
+            <!--            </div>-->
             <div>
               <a class="btn text-neutral-200 hover:text-white bg-neutral-900 bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
                  href="/regv.html">
