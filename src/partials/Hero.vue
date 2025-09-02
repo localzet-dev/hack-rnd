@@ -75,12 +75,12 @@
             <!--                Стать участником-->
             <!--              </a>-->
             <!--            </div>-->
-            <div>
-              <a class="btn text-neutral-200 hover:text-white bg-neutral-900 bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
-                 href="/regv.html">
-                <span>Быть волонтёром</span>
-              </a>
-            </div>
+            <!--            <div>-->
+            <!--              <a class="btn text-neutral-200 hover:text-white bg-neutral-900 bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"-->
+            <!--                 href="/regv.html">-->
+            <!--                <span>Быть волонтёром</span>-->
+            <!--              </a>-->
+            <!--            </div>-->
           </div>
 
         </div>
