@@ -25,7 +25,7 @@
         <p class="text-lg text-neutral-400 mb-8">Не разбираешься в IT, но хочешь стать частью этого события?</p>
         <div>
           <a class="btn text-neutral-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group"
-             href="/regv.html">
+             href="https://lk.hack-rnd.ru/auth/register">
             Присоединяйся!
           </a>
         </div>
